@@ -1,0 +1,16 @@
+            string storage = "";
+            string  symbol;
+            string userName;
+
+            Console.WriteLine("Введите ваше имя:");
+            userName = Console.ReadLine();
+            Console.WriteLine("Введите ваш символ:");
+            symbol = Console.ReadLine();
+            for (int i = userName.Length; i > 0; i--)
+            {
+                storage += symbol;              
+            }
+            Console.WriteLine(storage + symbol);
+            Console.WriteLine(symbol + userName + symbol);
+            Console.WriteLine(storage + symbol);
+            Console.ReadKey();
